@@ -4,11 +4,12 @@ import Chat from "./Chat";
 import Sidebar from "./Sidebar";
 const Content = () => {
   return (
-    <div className="flex justify-between">
+    <div className="main ">
       <Sidebar />
       <div className="mt-[5rem]">
         <Chat />
       </div>
+      
       <Chatroom />
     </div>
   );
