@@ -8,3 +8,8 @@
   box-sizing: border-box;
 }
 
+.main {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 30px 4fr 1fr;
+}
