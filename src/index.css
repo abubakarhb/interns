@@ -11,5 +11,6 @@
 .main {
   display: grid;
   gap: 1rem;
-  grid-template-columns: 60px 4fr 2fr;
+  margin:0 1rem;
+  grid-template-columns: 40px 4fr 2fr;
 }
