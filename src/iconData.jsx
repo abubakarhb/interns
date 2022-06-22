@@ -7,6 +7,7 @@ import { FiMessageSquare, FiVideo } from "react-icons/fi";
 import { BsArrow90DegRight, BsArrow90DegLeft } from "react-icons/bs";
 import { BiNotepad } from "react-icons/bi";
 import { AiOutlineCalendar } from "react-icons/ai";
+import { BsPerson, BsBell } from "react-icons/bs";
 
 
 export const chatIcons = [
@@ -65,3 +66,14 @@ export const sidebarIcons = [
     icon: <RiPulseFill />,
   },
 ];
+
+export const sidebarIconsTwo=[
+  {
+    id: 1,
+    icon: <BsPerson />,
+  },
+  {
+    id: 2,
+    icon: <BsBell />,
+  },
+]
