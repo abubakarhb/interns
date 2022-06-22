@@ -5,7 +5,7 @@ import { AiOutlineHeart } from "react-icons/ai";
 console.log(people);
 const Chatroom = () => {
   return (
-    <div className="">
+    <>
       <img
         className="w-[300px] h-[300px] rounded-md"
         src="https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
@@ -39,7 +39,7 @@ const Chatroom = () => {
           </span>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
