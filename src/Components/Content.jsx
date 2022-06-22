@@ -6,10 +6,10 @@ const Content = () => {
   return (
     <div className="main ">
       <Sidebar />
-      <div className="mt-[5rem]">
+      <div>
         <Chat />
       </div>
-      
+
       <Chatroom />
     </div>
   );
