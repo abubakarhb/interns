@@ -7,11 +7,11 @@ const Chatroom = () => {
   return (
     <div>
       <img
-        className="w-[300px] h-[300px] rounded-md"
+        className="rounded-md"
         src="https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
         alt=""
       />
-      <div className="bg-[#f5f5f5] rounded-sm w-[300px]">
+      <div className="bg-[#f5f5f5] rounded-sm">
         {people.map((person) => {
           const { id, img, name, text } = person;
           return (
@@ -30,7 +30,7 @@ const Chatroom = () => {
         })}
         <div className="flex pb-5 justify-evenly m-auto items-center">
           <input
-            className="p-2 rounded-md "
+            className="p-2 rounded-md w-[70%] "
             type="text"
             placeholder="Type a message ... "
           />
