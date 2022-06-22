@@ -6,7 +6,7 @@ import { HiOutlineMicrophone } from "react-icons/hi";
 import { FaTimes } from "react-icons/fa";
 const Navbar = () => {
   return (
-    <div className="flex justify-around p-4 items-center bg-[#f5f5f5]">
+    <div className="flex justify-between p-4 items-center ">
       <h1 className="text-lg uppercase flex font-semibold items-center px-1">
         c2001: intro to programming{" "}
         <span className="ml-2">
