@@ -1,10 +1,10 @@
-import React from "react";
 import { RiErrorWarningLine } from "react-icons/ri";
 import { GrDocumentNotes } from "react-icons/gr";
 import { BsStopCircle, BsCameraVideo, BsFillPersonFill } from "react-icons/bs";
 import { HiOutlineMicrophone } from "react-icons/hi";
 import { FaTimes } from "react-icons/fa";
 import { GiQueenCrown } from "react-icons/gi";
+import { peopleImages } from "../data";
 
 const Navbar = () => {
   return (
@@ -41,21 +41,19 @@ const Navbar = () => {
         </div>
       </div>
       <div className="flex">
-        <img
-          className="w-[30px] h-[30px] rounded-[50%]"
-          src="https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-          alt=""
-        />
-        <img
-          className="w-[30px] h-[30px] rounded-[50%]"
-          src="https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-          alt=""
-        />
-        <img
-          className="w-[30px] h-[30px] rounded-[50%]"
-          src="https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-          alt=""
-        />
+        {peopleImages.map((person) => {
+          const { id, img } = person;
+          return (
+            <div key={person.id}>
+              <img
+                src={person.img}
+                alt="person"
+                className="w-[30px] h-[30px] rounded-[50%]"
+              />
+            </div>
+          );
+        })}
+       
       </div>
     </div>
   );
