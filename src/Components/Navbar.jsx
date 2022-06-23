@@ -8,7 +8,7 @@ import { peopleImages } from "../data";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between p-4 items-center ">
+    <div className="flex justify-between p-3 items-center ">
       <h1 className="text-lg uppercase flex gap-2 font-semibold items-center px-1">
         <span className="text-2xl text-black ml-[6px] mr-2P">
           <GiQueenCrown />
@@ -18,7 +18,7 @@ const Navbar = () => {
           <RiErrorWarningLine />
         </span>
       </h1>
-      <div className="flex  items-center justify-evenly">
+      <div className="flex  items-center rounded-b-2xl p-3 bg-[#f5f5f5] justify-evenly">
         <div className="mx-2 bg-yellow-200 p-2 rounded-[50%]">
           <GrDocumentNotes />
         </div>
@@ -53,7 +53,6 @@ const Navbar = () => {
             </div>
           );
         })}
-       
       </div>
     </div>
   );
