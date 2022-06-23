@@ -4,10 +4,15 @@ import { GrDocumentNotes } from "react-icons/gr";
 import { BsStopCircle, BsCameraVideo, BsFillPersonFill } from "react-icons/bs";
 import { HiOutlineMicrophone } from "react-icons/hi";
 import { FaTimes } from "react-icons/fa";
+import { GiQueenCrown } from "react-icons/gi";
+
 const Navbar = () => {
   return (
     <div className="flex justify-between p-4 items-center ">
-      <h1 className="text-lg uppercase flex font-semibold items-center px-1">
+      <h1 className="text-lg uppercase flex gap-2 font-semibold items-center px-1">
+        <span className="text-2xl text-black ml-[6px] mr-2P">
+          <GiQueenCrown />
+        </span>
         c2001: intro to programming{" "}
         <span className="ml-2">
           <RiErrorWarningLine />
