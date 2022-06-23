@@ -1,14 +1,19 @@
+//chat component icons
 import { TiLocationArrowOutline } from "react-icons/ti";
-import { RiText, RiPulseFill } from "react-icons/ri";
+import { RiText } from "react-icons/ri";
 import { TbPencil } from "react-icons/tb";
 import { FaRegStickyNote } from "react-icons/fa";
 import { MdOutlineCheckBoxOutlineBlank } from "react-icons/md";
-import { FiMessageSquare, FiVideo } from "react-icons/fi";
+import { FiMessageSquare } from "react-icons/fi";
 import { BsArrow90DegRight, BsArrow90DegLeft } from "react-icons/bs";
+
+//sidebar icons
+import { FiVideo } from "react-icons/fi";
+import { RiPulseFill } from "react-icons/ri";
+
 import { BiNotepad } from "react-icons/bi";
 import { AiOutlineCalendar } from "react-icons/ai";
 import { BsPerson, BsBell } from "react-icons/bs";
-
 
 export const chatIcons = [
   {
@@ -67,7 +72,7 @@ export const sidebarIcons = [
   },
 ];
 
-export const sidebarIconsTwo=[
+export const sidebarIconsTwo = [
   {
     id: 1,
     icon: <BsPerson />,
@@ -76,4 +81,4 @@ export const sidebarIconsTwo=[
     id: 2,
     icon: <BsBell />,
   },
-]
+];
